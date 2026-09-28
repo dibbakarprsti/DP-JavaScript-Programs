@@ -1,0 +1,38 @@
+//When we dont have idea how many iterations we needs to perfoem
+
+//print the pattern with while loop
+let n = 7;
+let i = 1; // 1. Initialize 'i' outside the loop
+while (i <= n) {
+  let rows = ""; // 2. Safely declare 'rows' for each line
+  let j = 1;
+  while (j <= i) {
+    if (j == 1 || j == i || j == 7) {
+      rows += "*";
+    } else {
+      rows += " ";
+    }
+    j++;
+  }
+  console.log(rows);
+  i++;
+}
+
+
+
+//let max = 7;
+let num = 1; 
+while (num <= 7) 
+{
+  let rows = ""; 
+
+  let j = 1;
+  while (j <= num) {
+    rows+=num
+    
+    j++;
+  }
+  console.log(rows);
+  num++;
+}
+
