@@ -21,15 +21,14 @@ while (i <= n) {
 
 
 //let max = 7;
-let num = 1; 
-while (num <= 7) 
-{
-  let rows = ""; 
+let num = 1;
+while (num <= 7) {
+  let rows = "";
 
   let j = 1;
   while (j <= num) {
-    rows+=num
-    
+    rows += num;
+
     j++;
   }
   console.log(rows);
